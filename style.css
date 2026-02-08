@@ -16,9 +16,13 @@ body{
 }
 .title{
     color: white;
-    font-size: 60px;
+    font-size: 67px;
     text-align: left;
     position: absolute;
     margin-left: 28%;
     margin-top: 18%;
+}
+.logo{
+    position: absolute;
+    margin: 50px;
 }
