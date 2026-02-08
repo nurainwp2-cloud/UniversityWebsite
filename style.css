@@ -9,8 +9,9 @@
     font-family: 'Poppins', sans-serif;
 }
 body{
-    background-image: linear-gradient(black, gray);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.561), rgba(0, 0, 0, 0.533)), url("Images/Background.jpeg");
     background-size: cover;
     overflow: hidden;
+    height: 100vh;
     
 }
