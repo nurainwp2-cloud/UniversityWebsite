@@ -66,7 +66,7 @@ body{
     background: white;
     border-radius: 30px;
     width: 800px;
-    height: 60px;
+    height: 70px;
     position: absolute;
     margin-top: 550px;
     margin-left: 520px;
@@ -74,7 +74,7 @@ body{
 .los{
     position: absolute;
     margin-left: 400px;
-    margin-top: 10px;
+    margin-top: 15px;
     width: 200px;
     border: none;
      border: none;             /* removes default border */
@@ -84,10 +84,19 @@ body{
 .sub{
     position: absolute;
     margin-left: 100px;
-    margin-top: 10px;
+    margin-top: 15px;
     width: 200px;
     border: none;
      border: none;             /* removes default border */
     outline: none; 
     padding: 10px;    
+}
+.search{
+    position: absolute;
+    width: 50px;
+    margin-top: 560px;
+    margin-left: 1250px;
+    background: rgb(0, 166, 255);
+    padding: 10px;
+    border-radius: 50%;
 }
