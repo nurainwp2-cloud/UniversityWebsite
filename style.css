@@ -100,3 +100,20 @@ body{
     padding: 10px;
     border-radius: 50%;
 }
+.sideButtons{
+    position: absolute;
+    width: 100px;
+    background-color: rgb(0, 102, 255);
+    color: white;
+    margin-left: 1850px;
+    transform: rotate(-90deg);
+    margin-top: 400px;
+    padding: 1px;
+    height: 40px;
+}
+#sideButtons2{
+    margin-top: 550px;
+}
+.sideButtons:hover{
+    background-color: rgba(0, 110, 255, 0.696);
+}
