@@ -13,5 +13,12 @@ body{
     background-size: cover;
     overflow: hidden;
     height: 100vh;
-    
+}
+.title{
+    color: white;
+    font-size: 60px;
+    text-align: left;
+    position: absolute;
+    margin-left: 28%;
+    margin-top: 18%;
 }
