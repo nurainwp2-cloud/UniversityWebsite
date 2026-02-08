@@ -55,3 +55,39 @@ body{
     text-decoration: none;
     font-size: 18px;
 }
+.bottomNav li a img{
+    width: 20px;
+}
+.bottomNav li a:hover{
+    text-decoration: underline rgb(0, 140, 255) 3px;
+    color: rgb(0, 140, 255);
+}
+.select{
+    background: white;
+    border-radius: 30px;
+    width: 800px;
+    height: 60px;
+    position: absolute;
+    margin-top: 550px;
+    margin-left: 520px;
+}
+.los{
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 10px;
+    width: 200px;
+    border: none;
+     border: none;             /* removes default border */
+    outline: none; 
+    padding: 10px;  
+}
+.sub{
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 10px;
+    width: 200px;
+    border: none;
+     border: none;             /* removes default border */
+    outline: none; 
+    padding: 10px;    
+}
