@@ -28,7 +28,8 @@ body{
 }
 .logo{
     position: absolute;
-    margin: 50px;
+    margin-left: 60px;
+    margin-top: 20px;
 }
 .topNav{
     position: absolute;
@@ -84,18 +85,22 @@ body{
      border: none;             /* removes default border */
     outline: none; 
     padding: 10px;  
+    padding-right: 280px;
     appearance: none;  
     font-family: 'Poppinsl';
+    background: transparent;
 }
 .sub{
+    background: transparent;
     position: absolute;
     margin-left: 50px;
     margin-top: 5px;
     width: 200px;
     border: none;
-     border: none;             /* removes default border */
+    border: none;             /* removes default border */
     outline: none; 
-    padding: 10px;   
+    padding: 10px;  
+    padding-right: 280px; 
     appearance: none;  
     font-family: 'Poppinsl';
 }
@@ -138,4 +143,40 @@ body{
 }
 .select .h32{
     margin-left: 360px;
+}
+.subTxt{
+   position: absolute;
+    margin-left: 50px;
+    font-size: 14px;
+    z-index: 10;
+    width: 200px;
+    border: none;
+     border: none;             /* removes default border */
+    outline: none; 
+    padding: 10px;  
+    appearance: none;  
+    font-family: 'Poppinsl';
+}
+.subTxt2{
+    position: absolute;
+    margin-left: 350px;
+    font-size: 14px;
+    z-index: 10;
+    width: 200px;
+    border: none;
+     border: none;             /* removes default border */
+    outline: none; 
+    padding: 10px;  
+    appearance: none;  
+    font-family: 'Poppinsl';
+}
+.downArrow{
+    position: absolute;
+    margin-left: 315px;
+    margin-top: 20px;
+}
+.downArrow2{
+    position: absolute;
+    margin-left: 620px;
+    margin-top: 20px;
 }
