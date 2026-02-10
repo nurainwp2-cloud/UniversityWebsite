@@ -16,6 +16,11 @@ let connectDropdown = document.getElementById("connectDropdown");
 let connectDropdown2 = document.getElementById("connectDropdown2");
 let bottomNav = document.getElementById("bottomNav")
 let body = document.getElementById("body")
+let aboutLink = document.getElementById("aboutLink");
+let researchLink = document.getElementById("researchLink");
+let lifelongLink = document.getElementById("lifelongLink");
+let enterpriseLink = document.getElementById("enterpriseLink");
+let partnersLink = document.getElementById("partnersLink");
 
 
 function closeDropdown(){
@@ -31,6 +36,11 @@ function closeDropdown(){
     campusLink.style.color = "white"
     lifeLink.style.color = "white"
     connectLink.style.color = "white"
+    aboutLink.style.color = "white"
+    researchLink.style.color = "white"
+    lifelongLink.style.color = "white"
+    enterpriseLink.style.color = "white"
+    partnersLink.style.color = "white"
 }
 function dropdown1(){
     studyDropdown.style.height = "150px"
@@ -45,6 +55,11 @@ function dropdown1(){
     campusLink.style.color = "black"
     lifeLink.style.color = "black"
     connectLink.style.color = "black"
+    aboutLink.style.color = "black"
+    researchLink.style.color = "black"
+    lifelongLink.style.color = "black"
+    enterpriseLink.style.color = "black"
+    partnersLink.style.color = "black"
 }
 function dropdown2(){
     studyDropdown.style.height = "0px"
@@ -59,6 +74,11 @@ function dropdown2(){
     campusLink.style.color = "blue"
     lifeLink.style.color = "black"
     connectLink.style.color = "black"
+    aboutLink.style.color = "black"
+    researchLink.style.color = "black"
+    lifelongLink.style.color = "black"
+    enterpriseLink.style.color = "black"
+    partnersLink.style.color = "black"
 }
 function dropdown3(){
     studyDropdown.style.height = "0px"
@@ -73,6 +93,11 @@ function dropdown3(){
     campusLink.style.color = "black"
     lifeLink.style.color = "blue"
     connectLink.style.color = "black"
+    aboutLink.style.color = "black"
+    researchLink.style.color = "black"
+    lifelongLink.style.color = "black"
+    enterpriseLink.style.color = "black"
+    partnersLink.style.color = "black"
 }
 function dropdown4(){
     studyDropdown.style.height = "0px"
@@ -87,6 +112,11 @@ function dropdown4(){
     campusLink.style.color = "black"
     lifeLink.style.color = "black"
     connectLink.style.color = "blue"
+    aboutLink.style.color = "black"
+    researchLink.style.color = "black"
+    lifelongLink.style.color = "black"
+    enterpriseLink.style.color = "black"
+    partnersLink.style.color = "black"
 }
 
 
