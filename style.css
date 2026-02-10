@@ -85,7 +85,7 @@ body{
      border: none;             /* removes default border */
     outline: none; 
     padding: 10px;  
-    padding-right: 280px;
+    padding-right: 350px;
     appearance: none;  
     font-family: 'Poppinsl';
     background: transparent;
@@ -177,6 +177,6 @@ body{
 }
 .downArrow2{
     position: absolute;
-    margin-left: 620px;
+    margin-left: 670px;
     margin-top: 20px;
 }
