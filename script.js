@@ -21,6 +21,7 @@ let researchLink = document.getElementById("researchLink");
 let lifelongLink = document.getElementById("lifelongLink");
 let enterpriseLink = document.getElementById("enterpriseLink");
 let partnersLink = document.getElementById("partnersLink");
+let logo = document.getElementById("logo")
 
 
 function closeDropdown(){
@@ -41,6 +42,7 @@ function closeDropdown(){
     lifelongLink.style.color = "white"
     enterpriseLink.style.color = "white"
     partnersLink.style.color = "white"
+    logo.src = "Images/ApuLogoDark.png"
 }
 function dropdown1(){
     studyDropdown.style.height = "150px"
@@ -60,6 +62,7 @@ function dropdown1(){
     lifelongLink.style.color = "black"
     enterpriseLink.style.color = "black"
     partnersLink.style.color = "black"
+    logo.src = "Images/navbar-logo.png"
 }
 function dropdown2(){
     studyDropdown.style.height = "0px"
@@ -79,6 +82,7 @@ function dropdown2(){
     lifelongLink.style.color = "black"
     enterpriseLink.style.color = "black"
     partnersLink.style.color = "black"
+    logo.src = "Images/navbar-logo.png"
 }
 function dropdown3(){
     studyDropdown.style.height = "0px"
@@ -98,6 +102,7 @@ function dropdown3(){
     lifelongLink.style.color = "black"
     enterpriseLink.style.color = "black"
     partnersLink.style.color = "black"
+    logo.src = "Images/navbar-logo.png"
 }
 function dropdown4(){
     studyDropdown.style.height = "0px"
@@ -117,6 +122,7 @@ function dropdown4(){
     lifelongLink.style.color = "black"
     enterpriseLink.style.color = "black"
     partnersLink.style.color = "black"
+    logo.src = "Images/navbar-logo.png"
 }
 
 
