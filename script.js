@@ -14,6 +14,80 @@ let lifeDropdown = document.getElementById("lifeDropdown");
 let lifeDropdown2 = document.getElementById("lifeDropdown2");
 let connectDropdown = document.getElementById("connectDropdown");
 let connectDropdown2 = document.getElementById("connectDropdown2");
+let bottomNav = document.getElementById("bottomNav")
+let body = document.getElementById("body")
+
+
+function closeDropdown(){
+    studyDropdown.style.height = "0px"
+    studyDropdown2.style.height = "0px"
+    campusDropdown.style.height = "0px"
+    campusDropdown2.style.height = "0px"
+    lifeDropdown.style.height = "0px"
+    lifeDropdown2.style.height = "0px"
+    connectDropdown.style.height = "0px"
+    connectDropdown2.style.height = "0px"
+    studyLink.style.color = "white"
+    campusLink.style.color = "white"
+    lifeLink.style.color = "white"
+    connectLink.style.color = "white"
+}
+function dropdown1(){
+    studyDropdown.style.height = "150px"
+    studyDropdown2.style.height = "700px"
+    campusDropdown.style.height = "0px"
+    campusDropdown2.style.height = "0px"
+    lifeDropdown.style.height = "0px"
+    lifeDropdown2.style.height = "0px"
+    connectDropdown.style.height = "0px"
+    connectDropdown2.style.height = "0px"
+    studyLink.style.color = "blue"
+    campusLink.style.color = "black"
+    lifeLink.style.color = "black"
+    connectLink.style.color = "black"
+}
+function dropdown2(){
+    studyDropdown.style.height = "0px"
+    studyDropdown2.style.height = "0px"
+    campusDropdown.style.height = "150px"
+    campusDropdown2.style.height = "700px"
+    lifeDropdown.style.height = "0px"
+    lifeDropdown2.style.height = "0px"
+    connectDropdown.style.height = "0px"
+    connectDropdown2.style.height = "0px"
+     studyLink.style.color = "black"
+    campusLink.style.color = "blue"
+    lifeLink.style.color = "black"
+    connectLink.style.color = "black"
+}
+function dropdown3(){
+    studyDropdown.style.height = "0px"
+    studyDropdown2.style.height = "0px"
+    campusDropdown.style.height = "0px"
+    campusDropdown2.style.height = "0px"
+    lifeDropdown.style.height = "150px"
+    lifeDropdown2.style.height = "700px"
+    connectDropdown.style.height = "0px"
+    connectDropdown2.style.height = "0px"
+     studyLink.style.color = "black"
+    campusLink.style.color = "black"
+    lifeLink.style.color = "blue"
+    connectLink.style.color = "black"
+}
+function dropdown4(){
+    studyDropdown.style.height = "0px"
+    studyDropdown2.style.height = "0px"
+    campusDropdown.style.height = "0px"
+    campusDropdown2.style.height = "0px"
+    lifeDropdown.style.height = "0px"
+    lifeDropdown2.style.height = "0px"
+    connectDropdown.style.height = "150px"
+    connectDropdown2.style.height = "700px"
+     studyLink.style.color = "black"
+    campusLink.style.color = "black"
+    lifeLink.style.color = "black"
+    connectLink.style.color = "blue"
+}
 
 
 
