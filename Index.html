@@ -9,19 +9,27 @@
 <body>
     <!-- main -->
      <div class="container">
-        <img class="logo" src="Images/ApuLogoDark.png" alt="">
-        <ul class="topNav">
+        <div id="studyDropdown" class="dropdown" ></div>
+        <div id="studyDropdown2" class="dropdown2" ></div>
+        <div id="campusDropdown" class="dropdown"></div>
+        <div id="campusDropdown2" class="dropdown2"></div>
+        <div id="lifeDropdown" class="dropdown" ></div>
+        <div id="lifeDropdown2" class="dropdown2" ></div>
+        <div id="connectDropdown" class="dropdown"></div>
+        <div id="connectDropdown2" class="dropdown2"></div>
+        <img class="logo"  id = "logo" src="Images/ApuLogoDark.png" alt="">
+        <ul class="topNav" id="topNav">
             <li><a href="">About</a></li>
             <li><a href="">Research</a></li>
             <li><a href="">Lifelong Learning</a></li>
             <li><a href="">Enterprise</a></li>
             <li><a href="">Partners</a></li>
         </ul>
-        <ul class="bottomNav">
-            <li><a href="">Study</a></li>
-            <li><a href="">Campus</a></li>
-            <li><a href="">Life at APU</a></li>
-            <li><a href="">Connect</a></li>
+        <ul class="bottomNav" id="bottomNav">
+            <li><a href="" id="study" onmouseover="dropdown1()">Study</a></li>
+            <li><a href="" id="campus" onmouseover="dropdown2()">Campus</a></li>
+            <li><a href="" id="life" onmouseover="dropdown3()">Life at APU</a></li>
+            <li><a href="" id="connect" onmouseover="dropdown4()">Connect</a></li>
             <li><a href=""><img src="Images/Search.png" alt=""></a></li>
         </ul>
         <h1 class="title">Become the next <br> big tech innovator</h1>
