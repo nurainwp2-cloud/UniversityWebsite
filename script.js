@@ -24,9 +24,20 @@ let partnersLink = document.getElementById("partnersLink");
 let logo = document.getElementById("logo")
 let studyDropdownul = document.getElementById("studyDropdownul")
 let coursesdropdownul = document.getElementById("coursesDropDown")
+let coursesLink = document.getElementById("coursesLink")
 
+
+
+function showCourseDropdown(){
+    coursesdropdownul.style.visibility = "visible"
+    coursesdropdownul.style.zIndex = "2"
+}
+function closeCourseDropdown(){
+    coursesdropdownul.style.visibility = "hidden"
+}
 
 function closeDropdown(){
+    coursesdropdownul.style.visibility = "hidden"
     studyDropdownul.style.visibility = "hidden"
     studyDropdown.style.height = "0px"
     studyDropdown2.style.height = "0px"

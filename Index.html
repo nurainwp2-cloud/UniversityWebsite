@@ -8,19 +8,19 @@
 </head>
 <body id="body">
     <!-- main -->
-     <div class="container" >
+     <div class="container"  >
         <div id="studyDropdown" class="dropdown" ></div>
         <div id="studyDropdown2" class="dropdown2" >
-            <ul id="studyDropdownul">
-                <li><a href="">Chat with Counsellor</a></li><li><img src="Images/NorthEast.png" alt=""></li>
-                <li><a href="">Study Areas</a></li><li><img src="Images/NorthEast.png" alt=""></li>
-                <li><a onmouseover="showCourseDropdown()" onmouseleave="closeCourseDropdown()" href="">Courses</a></li><li><img src="Images/ArrowRight.png" alt=""></li>
-                <li><a href="">Intake Calendar</a></li><li><img src="Images/NorthEast.png" alt=""></li>
-                <li><a href="">Open Day</a></li><li><img src="Images/NorthEast.png" alt=""></li>
-                <li><a href="">Scholarships & Financial Aids</a></li><li><img src="Images/ArrowRight.png" alt=""></li>
-                <li><a href="">APU-DMU</a></li><li><img src="Images/ArrowRight.png" alt=""></li>
+            <ul id="studyDropdownul" >
+                <li onmouseover="closeCourseDropdown()"><a href="">Chat with Counsellor</a></li><li><img src="Images/NorthEast.png" alt=""></li>
+                <li onmouseover="closeCourseDropdown()"><a href="">Study Areas</a></li><li><img src="Images/NorthEast.png" alt=""></li>
+                <li onmouseover="showCourseDropdown()"  ><a id="coursesLink"  href="">Courses</a></li><li><img src="Images/ArrowRight.png" alt=""></li>
+                <li onmouseover="closeCourseDropdown()"><a href="">Intake Calendar</a></li><li><img src="Images/NorthEast.png" alt=""></li>
+                <li onmouseover="closeCourseDropdown()"><a href="">Open Day</a></li><li><img src="Images/NorthEast.png" alt=""></li>
+                <li onmouseover="closeCourseDropdown()" onmouseover="showScholarshipDropdown()"><a href="">Scholarships & Financial Aids</a></li><li><img src="Images/ArrowRight.png" alt=""></li>
+                <li onmouseover="closeCourseDropdown()"><a href="">APU-DMU</a></li><li><img src="Images/ArrowRight.png" alt=""></li>
             </ul>
-            <ul id="coursesDropDown">
+            <ul id="coursesDropDown" >
                 <li><a href="">Overview</a></li>
                 <li><a href="">Pre-University Foundation Studies</a></li>
                 <li><a href="">Pre-University Diploma Studies</a></li>
@@ -28,8 +28,15 @@
                 <li><a href="">Undergraduate Studies</a></li>
                 <li><a href="">Postgraduate Master Degree Studies</a></li>
                 <li><a href="">Postgraduate PhD Studies</a></li>
-                <li><a href="">Postgraduate Online Studies (ODL)</a></li>
-                
+            </ul>
+             <ul id="scholarshipsDropDown" >
+                <li><a href="">Overview</a></li>
+                <li><a href="">Pre-University Foundation Studies</a></li>
+                <li><a href="">Pre-University Diploma Studies</a></li>
+                <li><a href="">Pre-University Certificate Studies</a></li>
+                <li><a href="">Undergraduate Studies</a></li>
+                <li><a href="">Postgraduate Master Degree Studies</a></li>
+                <li><a href="">Postgraduate PhD Studies</a></li>
             </ul>
         </div>
         <div id="campusDropdown" class="dropdown"></div>
