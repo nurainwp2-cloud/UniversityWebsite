@@ -25,6 +25,24 @@ let logo = document.getElementById("logo")
 let studyDropdownul = document.getElementById("studyDropdownul")
 let coursesdropdownul = document.getElementById("coursesDropDown")
 let coursesLink = document.getElementById("coursesLink")
+let scholarshipDropDown = document.getElementById("scholarshipsDropDown")
+let APUDMUDropDown = document.getElementById("APU-DMUDropDown")
+
+function showapuDropdown(){
+    APUDMUDropDown.style.visibility = "visible"
+    APUDMUDropDown.style.zIndex = "2"
+}
+function closeapuDropdown(){
+    APUDMUDropDown.style.visibility = "hidden"
+}
+
+function showScholarshipDropdown(){
+    scholarshipDropDown.style.visibility = "visible"
+    scholarshipDropDown.style.zIndex = "2"
+}
+function closeScholarshipDropdown(){
+    scholarshipDropDown.style.visibility = "hidden"
+}
 
 
 
@@ -37,6 +55,8 @@ function closeCourseDropdown(){
 }
 
 function closeDropdown(){
+    APUDMUDropDown.style.visibility = "hidden"
+    scholarshipDropDown.style.visibility = "hidden"
     coursesdropdownul.style.visibility = "hidden"
     studyDropdownul.style.visibility = "hidden"
     studyDropdown.style.height = "0px"
