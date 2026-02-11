@@ -22,9 +22,11 @@ let lifelongLink = document.getElementById("lifelongLink");
 let enterpriseLink = document.getElementById("enterpriseLink");
 let partnersLink = document.getElementById("partnersLink");
 let logo = document.getElementById("logo")
+let studyDropdownul = document.getElementById("studyDropdownul")
 
 
 function closeDropdown(){
+    studyDropdownul.style.visibility = "hidden"
     studyDropdown.style.height = "0px"
     studyDropdown2.style.height = "0px"
     campusDropdown.style.height = "0px"
@@ -43,6 +45,8 @@ function closeDropdown(){
     enterpriseLink.style.color = "white"
     partnersLink.style.color = "white"
     logo.src = "Images/ApuLogoDark.png"
+    
+    
 }
 function dropdown1(){
     studyDropdown.style.height = "150px"
@@ -63,6 +67,7 @@ function dropdown1(){
     enterpriseLink.style.color = "black"
     partnersLink.style.color = "black"
     logo.src = "Images/navbar-logo.png"
+    studyDropdownul.style.visibility = "visible"
 }
 function dropdown2(){
     studyDropdown.style.height = "0px"

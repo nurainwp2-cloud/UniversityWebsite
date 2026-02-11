@@ -209,3 +209,29 @@ body{
     position: absolute;
     margin-top: 600px;
 }
+#studyDropdown2 ul{
+    visibility: hidden;
+    position: absolute;
+    padding: 20px 50px;
+    margin-top: 150px;
+    font-size: 20px;
+    list-style: none;
+    margin-left: -15px;
+}
+#studyDropdown2 ul li{
+    margin-top: 10px;
+}
+#studyDropdown2 ul li a {
+    display: inline-block;       /* needed to control width */
+    width: 500px;                /* fixed width for all links */
+    color: rgb(18, 18, 18);
+    text-decoration: none;       /* remove default underline */
+    border-bottom: 2px solid rgb(166, 166, 166); /* custom underline */
+    padding: 20px 20px;
+    background-color: rgb(243, 243, 243);
+    text-align: left;          /* optional: center text in fixed width */
+}
+#studyDropdown2 ul li a:hover {
+    background-color: rgb(0, 102, 255);
+    color: white;
+}
