@@ -212,21 +212,30 @@ body{
 #studyDropdown2 ul{
     visibility: hidden;
     position: absolute;
-    padding: 20px 50px;
-    margin-top: 150px;
-    font-size: 20px;
+    margin-top: 140px;
+    font-size: 16px;
     list-style: none;
-    margin-left: -15px;
+    margin-left: 15px;
+    border-right: 1px solid rgb(196, 196, 196);
+   
 }
 #studyDropdown2 ul li{
     margin-top: 10px;
+    
+}
+#studyDropdown2 ul li img{
+    position: absolute;
+    margin-top: -55px;
+    width: 20px;
+    margin-left: 450px
+    
 }
 #studyDropdown2 ul li a {
     display: inline-block;       /* needed to control width */
     width: 500px;                /* fixed width for all links */
     color: rgb(18, 18, 18);
     text-decoration: none;       /* remove default underline */
-    border-bottom: 2px solid rgb(166, 166, 166); /* custom underline */
+    border-bottom: 1px solid rgb(207, 207, 207); /* custom underline */
     padding: 20px 20px;
     background-color: rgb(243, 243, 243);
     text-align: left;          /* optional: center text in fixed width */

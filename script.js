@@ -23,6 +23,7 @@ let enterpriseLink = document.getElementById("enterpriseLink");
 let partnersLink = document.getElementById("partnersLink");
 let logo = document.getElementById("logo")
 let studyDropdownul = document.getElementById("studyDropdownul")
+let coursesdropdownul = document.getElementById("coursesDropDown")
 
 
 function closeDropdown(){
