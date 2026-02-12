@@ -56,7 +56,7 @@ function closeCourseDropdown(){
 
 function closeDropdown(){
     APUDMUDropDown.style.visibility = "hidden"
-     campusDropdownul.style.visibility = "hidden"
+    campusDropdownul.style.visibility = "hidden"
     scholarshipDropDown.style.visibility = "hidden"
     coursesdropdownul.style.visibility = "hidden"
     studyDropdownul.style.visibility = "hidden"
@@ -82,6 +82,8 @@ function closeDropdown(){
     
 }
 function dropdown1(){
+    APUDMUDropDown.style.visibility = "hidden"
+    campusDropdownul.style.visibility = "hidden"
     studyDropdown.style.height = "150px"
     studyDropdown2.style.height = "700px"
     campusDropdown.style.height = "0px"
@@ -103,6 +105,9 @@ function dropdown1(){
     studyDropdownul.style.visibility = "visible"
 }
 function dropdown2(){
+    scholarshipDropDown.style.visibility = "hidden"
+    coursesdropdownul.style.visibility = "hidden"
+    studyDropdownul.style.visibility = "hidden"
     studyDropdown.style.height = "150px"
     studyDropdown2.style.height = "700px"
     campusDropdown.style.height = "0px"
