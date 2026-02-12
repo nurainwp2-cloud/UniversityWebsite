@@ -56,6 +56,7 @@ function closeCourseDropdown(){
 
 function closeDropdown(){
     APUDMUDropDown.style.visibility = "hidden"
+     campusDropdownul.style.visibility = "hidden"
     scholarshipDropDown.style.visibility = "hidden"
     coursesdropdownul.style.visibility = "hidden"
     studyDropdownul.style.visibility = "hidden"
@@ -102,15 +103,15 @@ function dropdown1(){
     studyDropdownul.style.visibility = "visible"
 }
 function dropdown2(){
-    studyDropdown.style.height = "0px"
-    studyDropdown2.style.height = "0px"
-    campusDropdown.style.height = "150px"
-    campusDropdown2.style.height = "700px"
+    studyDropdown.style.height = "150px"
+    studyDropdown2.style.height = "700px"
+    campusDropdown.style.height = "0px"
+    campusDropdown2.style.height = "0px"
     lifeDropdown.style.height = "0px"
     lifeDropdown2.style.height = "0px"
     connectDropdown.style.height = "0px"
     connectDropdown2.style.height = "0px"
-     studyLink.style.color = "black"
+    studyLink.style.color = "black"
     campusLink.style.color = "blue"
     lifeLink.style.color = "black"
     connectLink.style.color = "black"
@@ -120,6 +121,7 @@ function dropdown2(){
     enterpriseLink.style.color = "black"
     partnersLink.style.color = "black"
     logo.src = "Images/navbar-logo.png"
+    campusDropdownul.style.visibility = "visible"
 }
 function dropdown3(){
     studyDropdown.style.height = "0px"
