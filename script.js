@@ -29,7 +29,7 @@ let scholarshipDropDown = document.getElementById("scholarshipsDropDown")
 let APUDMUDropDown = document.getElementById("APU-DMUDropDown")
 let universityDropdown = document.getElementById("universityDropdown")
 
-showUniversityDropdown(){
+function showUniversityDropdown(){
     universityDropdown.style.visibility = "visibility"
     universityDropdown.style.zIndex = "2"
 }
