@@ -271,7 +271,11 @@ body{
     z-index: 20;
     margin-left: 500px;
 }
-#universityDropdown{
+#universityDropdown li{
     z-index: 20;
+    margin-left: 500px;
+}
+#awardsDropdown li{
+     z-index: 20;
     margin-left: 500px;
 }
