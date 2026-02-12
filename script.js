@@ -33,14 +33,20 @@ let awardsDropdown = document.getElementById("awardsDropdown")
 
 function showAwardsDropdown(){
     awardsDropdown.style.visibility = "visible"
-    universityDropdown.style.visibility = "hidden"
     awardsDropdown.style.zIndex = "2"
 }
 
 function showUniversityDropdown(){
-    awardsDropdown.style.visibility = "hidden"
     universityDropdown.style.visibility = "visible"
     universityDropdown.style.zIndex = "2"
+}
+function closeUniversityDropdown(){
+    universityDropdown.style.visibility = "hidden"
+    universityDropdown.style.zIndex = "2"
+}
+function closawardsDropdown(){
+    awardsDropdown.style.visibility = "hidden"
+    awardsDropdown.style.zIndex = "2"
 }
 
 function showapuDropdown(){
