@@ -27,6 +27,12 @@ let coursesdropdownul = document.getElementById("coursesDropDown")
 let coursesLink = document.getElementById("coursesLink")
 let scholarshipDropDown = document.getElementById("scholarshipsDropDown")
 let APUDMUDropDown = document.getElementById("APU-DMUDropDown")
+let universityDropdown = document.getElementById("universityDropdown")
+
+showUniversityDropdown(){
+    universityDropdown.style.visibility = "visibility"
+    universityDropdown.style.zIndex = "2"
+}
 
 function showapuDropdown(){
     APUDMUDropDown.style.visibility = "visible"
