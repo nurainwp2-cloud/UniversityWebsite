@@ -28,13 +28,17 @@ let coursesLink = document.getElementById("coursesLink")
 let scholarshipDropDown = document.getElementById("scholarshipsDropDown")
 let APUDMUDropDown = document.getElementById("APU-DMUDropDown")
 let universityDropdown = document.getElementById("universityDropdown")
+let awardsDropdown = document.getElementById("awardsDropdown")
 
 
 function showAwardsDropdown(){
-    
+    awardsDropdown.style.visibility = "visible"
+    universityDropdown.style.visibility = "hidden"
+    awardsDropdown.style.zIndex = "2"
 }
 
 function showUniversityDropdown(){
+    awardsDropdown.style.visibility = "hidden"
     universityDropdown.style.visibility = "visible"
     universityDropdown.style.zIndex = "2"
 }
@@ -66,6 +70,7 @@ function closeCourseDropdown(){
 }
 
 function closeDropdown(){
+    awardsDropdown.style.visibility = "hidden"
     APUDMUDropDown.style.visibility = "hidden"
     campusDropdownul.style.visibility = "hidden"
     scholarshipDropDown.style.visibility = "hidden"
