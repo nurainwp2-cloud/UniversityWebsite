@@ -29,8 +29,17 @@ let scholarshipDropDown = document.getElementById("scholarshipsDropDown")
 let APUDMUDropDown = document.getElementById("APU-DMUDropDown")
 let universityDropdown = document.getElementById("universityDropdown")
 let awardsDropdown = document.getElementById("awardsDropdown")
+let sustainDropdown = document.getElementById("sustainDropdown")
 
 
+function opensustainabilityDropdown(){
+    sustainDropdown.style.visibility = "visible"
+    sustainDropdown.style.zIndex = "2"
+}
+function closesustainabilityDropdown(){
+    sustainDropdown.style.visibility = "hidden"
+    sustainDropdown.style.zIndex = "2"
+}
 function showAwardsDropdown(){
     awardsDropdown.style.visibility = "visible"
     awardsDropdown.style.zIndex = "2"
