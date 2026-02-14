@@ -30,6 +30,17 @@ let APUDMUDropDown = document.getElementById("APU-DMUDropDown")
 let universityDropdown = document.getElementById("universityDropdown")
 let awardsDropdown = document.getElementById("awardsDropdown")
 let sustainDropdown = document.getElementById("sustainDropdown")
+let lifeDropdownul = document.getElementById("lifeDropdownul")
+let residenceul = document.getElementById("residenceul")
+
+function showresidenceul(){
+    residenceul.style.visibility = "visible"
+    sustainDropdown.style.zIndex = "2"
+}
+function closereseidenceul(){
+    residenceul.style.visibility = "hidden"
+    sustainDropdown.style.zIndex = "2"
+}
 
 
 function opensustainabilityDropdown(){
@@ -85,6 +96,9 @@ function closeCourseDropdown(){
 }
 
 function closeDropdown(){
+    residenceul.style.visibility = "hidden"
+    sustainDropdown.style.visibility = "hidden"
+    sustainDropdown.style.zIndex = "2"
     awardsDropdown.style.visibility = "hidden"
     APUDMUDropDown.style.visibility = "hidden"
     campusDropdownul.style.visibility = "hidden"
@@ -110,6 +124,7 @@ function closeDropdown(){
     enterpriseLink.style.color = "white"
     partnersLink.style.color = "white"
     logo.src = "Images/ApuLogoDark.png"
+     lifeDropdownul.style.visibility = "hidden"
     
     
 }
@@ -135,6 +150,7 @@ function dropdown1(){
     partnersLink.style.color = "black"
     logo.src = "Images/navbar-logo.png"
     studyDropdownul.style.visibility = "visible"
+    lifeDropdownul.style.visibility = "hidden"
 }
 function dropdown2(){
     scholarshipDropDown.style.visibility = "hidden"
@@ -159,8 +175,10 @@ function dropdown2(){
     partnersLink.style.color = "black"
     logo.src = "Images/navbar-logo.png"
     campusDropdownul.style.visibility = "visible"
+    lifeDropdownul.style.visibility = "hidden"
 }
 function dropdown3(){
+    lifeDropdownul.style.visibility = "visible"
     studyDropdown.style.height = "0px"
     studyDropdown2.style.height = "0px"
     campusDropdown.style.height = "0px"
