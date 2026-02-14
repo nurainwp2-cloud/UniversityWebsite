@@ -288,13 +288,13 @@ body{
 }
 #lifeDropdownul{
     position: absolute;
-    z-index: 100;
+    z-index: 1000;
 }
 #lifeDropdownul li{
-    z-index: 100;
+    z-index: 1000;
 }
 #residenceul{
-    
+    position: absolute;
     z-index: 2;
 }
 #residenceul li{

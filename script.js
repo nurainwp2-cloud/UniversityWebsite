@@ -32,6 +32,7 @@ let awardsDropdown = document.getElementById("awardsDropdown")
 let sustainDropdown = document.getElementById("sustainDropdown")
 let lifeDropdownul = document.getElementById("lifeDropdownul")
 let residenceul = document.getElementById("residenceul")
+let transportul = document.getElementById("transportul")
 
 function showresidenceul(){
     residenceul.style.visibility = "visible"
