@@ -34,6 +34,12 @@ let lifeDropdownul = document.getElementById("lifeDropdownul")
 let residenceul = document.getElementById("residenceul")
 let transportul = document.getElementById("transportul")
 let connectul = document.getElementById("connectul")
+let InternationalDropdownul = document.getElementById("InternationalDropdownul")
+
+function showInternationalDropdownul(){
+    InternationalDropdownul.style.visibility = "visible"
+    InternationalDropdownul.style.zIndex = "2"
+}
 
 
 function showtransport(){
