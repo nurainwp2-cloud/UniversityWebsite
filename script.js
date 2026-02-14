@@ -40,6 +40,9 @@ function showInternationalDropdownul(){
     InternationalDropdownul.style.visibility = "visible"
     InternationalDropdownul.style.zIndex = "2"
 }
+function closeInternationalDropdownul(){
+    InternationalDropdownul.style.visibility = "hidden"
+}
 
 
 function showtransport(){
@@ -114,6 +117,7 @@ function closeCourseDropdown(){
 }
 
 function closeDropdown(){
+    InternationalDropdownul.style.visibility = "hidden"
     connectul.style.visibility = "hidden"
      transportul.style.visibility = "hidden"
     residenceul.style.visibility = "hidden"
@@ -149,6 +153,7 @@ function closeDropdown(){
     
 }
 function dropdown1(){
+    InternationalDropdownul.style.visibility = "hidden"
      connectul.style.visibility = "hidden"
     APUDMUDropDown.style.visibility = "hidden"
     campusDropdownul.style.visibility = "hidden"
@@ -174,6 +179,7 @@ function dropdown1(){
     lifeDropdownul.style.visibility = "hidden"
 }
 function dropdown2(){
+    InternationalDropdownul.style.visibility = "hidden"
      connectul.style.visibility = "hidden"
     scholarshipDropDown.style.visibility = "hidden"
     coursesdropdownul.style.visibility = "hidden"
@@ -200,6 +206,7 @@ function dropdown2(){
     lifeDropdownul.style.visibility = "hidden"
 }
 function dropdown3(){
+    InternationalDropdownul.style.visibility = "hidden"
      connectul.style.visibility = "hidden"
     lifeDropdownul.style.visibility = "visible"
     studyDropdown.style.height = "0px"
