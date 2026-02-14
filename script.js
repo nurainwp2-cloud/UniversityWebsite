@@ -33,6 +33,8 @@ let sustainDropdown = document.getElementById("sustainDropdown")
 let lifeDropdownul = document.getElementById("lifeDropdownul")
 let residenceul = document.getElementById("residenceul")
 let transportul = document.getElementById("transportul")
+let connectul = document.getElementById("connectul")
+
 
 function showtransport(){
     transportul.style.visibility = "visible"
@@ -106,6 +108,7 @@ function closeCourseDropdown(){
 }
 
 function closeDropdown(){
+    connectul.style.visibility = "hidden"
      transportul.style.visibility = "hidden"
     residenceul.style.visibility = "hidden"
     sustainDropdown.style.visibility = "hidden"
@@ -210,6 +213,7 @@ function dropdown3(){
     logo.src = "Images/navbar-logo.png"
 }
 function dropdown4(){
+    connectul.style.visibility = "visible"
     studyDropdown.style.height = "0px"
     studyDropdown2.style.height = "0px"
     campusDropdown.style.height = "0px"

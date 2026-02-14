@@ -304,3 +304,9 @@ body{
 #transportul li{
     margin-left:500px; 
 }
+#lifeDropdown2{
+    z-index: 3;
+}
+#connectDropdown2{
+    z-index: 3;
+}
