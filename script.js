@@ -34,6 +34,15 @@ let lifeDropdownul = document.getElementById("lifeDropdownul")
 let residenceul = document.getElementById("residenceul")
 let transportul = document.getElementById("transportul")
 
+function showtransport(){
+    transportul.style.visibility = "visible"
+    transportul.style.zIndex = "2"
+}
+function closetransport(){
+    transportul.style.visibility = "hidden"
+    transportul.style.zIndex = "2"
+}
+
 function showresidenceul(){
     residenceul.style.visibility = "visible"
     sustainDropdown.style.zIndex = "2"
