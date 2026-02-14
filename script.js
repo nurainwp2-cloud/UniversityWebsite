@@ -106,6 +106,7 @@ function closeCourseDropdown(){
 }
 
 function closeDropdown(){
+     transportul.style.visibility = "hidden"
     residenceul.style.visibility = "hidden"
     sustainDropdown.style.visibility = "hidden"
     sustainDropdown.style.zIndex = "2"
