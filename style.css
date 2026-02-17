@@ -15,7 +15,7 @@
 body{
     background-image: linear-gradient(rgba(0, 0, 0, 0.561), rgba(0, 0, 0, 0.533)), url("Images/Background.jpeg");
     background-size: cover;
-    overflow: hidden;
+    overflow-x: hidden;
     height: 100vh;
 }
 .title{
@@ -312,4 +312,11 @@ body{
 }
 #InternationalDropdownul li{
     margin-left: 500px;
+}
+.about{
+    position: absolute;
+    margin-top: 1000px;
+    background: white;
+    width: 100%;
+    height: 550px;
 }
