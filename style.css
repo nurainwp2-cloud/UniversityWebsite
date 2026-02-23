@@ -400,6 +400,9 @@ body{
   justify-content: center; /* centers items horizontally */
   gap: 100px;
   margin-top: 80px;
+  margin-left: 400px;
+  width: 1000px;
+  overflow: hidden;
 }
 
 .reasonsUl li {
