@@ -395,15 +395,25 @@ body{
     text-align: center;
     font-family: 'Poppinsl';
 }
-.reasonsUl{
-    list-style: none;
-    display: flex;
-    gap: 100px;
-    justify-content: center;
-    margin-top: 50px;
+.reasonsUl {
+  display: flex;
+  justify-content: center; /* centers items horizontally */
+  gap: 100px;
+  margin-top: 80px;
+}
+
+.reasonsUl li {
+  display: flex;
+  flex-direction: column;  /* image on top, text below */
+  align-items: center;     /* centers image + text */
+  text-align: center;
+  width: 250px;           /* optional: set a fixed width for each item */
 }
 .reasonsUl li h5{
     margin-top: 10px;
     font-size: 16px;
     color: rgb(88, 88, 88);
+}
+.reasonsUl li img{
+    width: 80px;
 }
