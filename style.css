@@ -542,3 +542,13 @@ body{
     margin-top: -25px;
     z-index: 100;
 }
+.counsellorImg span{
+    color: rgb(0, 0, 0);
+    letter-spacing: 1.5px;
+    margin-bottom: 8px;
+}
+.counsellorImg .phone{
+    color: rgb(0, 102, 255);
+    letter-spacing: 1px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
