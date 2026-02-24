@@ -493,7 +493,52 @@ body{
     height: 1800px;
     margin-top: 4000px;
 }
-.particlesCounsellors{
+.particlesCounsellors1{
+    position: absolute;
     width: 100%;
     background-color: rgb(255, 255, 255);
+}
+.particlesCounsellors2{
+    position: absolute;
+    margin-top: 1000px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+.particlesCounsellors3{
+    position: absolute;
+    width: 100%;
+    margin-top: 1300px;
+    background-color: rgb(255, 255, 255);
+}
+.counsellorImg{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    margin-left: 300px;
+    margin-top: 120px;
+    width: 1300px;
+    list-style: none;
+}
+.counsellorImg img{
+   filter:brightness(60%);
+   position: relative;
+   border-radius: 20px;
+   transition: 0.5s;
+   margin-bottom: 40px;
+}
+.counsellorImg img:hover{
+   filter:brightness(100%);
+   position: relative;
+   border-radius: 20px;
+}
+.counsellorImg h5{
+    position: absolute;
+    font-family: 'Poppinsl';
+    color: rgba(78, 78, 78, 0.759);
+    letter-spacing: 3px;
+    font-size: 14px;
+    margin-top: -25px;
+    z-index: 100;
 }
