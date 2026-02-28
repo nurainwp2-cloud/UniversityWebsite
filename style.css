@@ -625,3 +625,19 @@ body{
 
    
 }
+.newsTxt{
+    position: absolute;
+    margin-left: 270px;
+    margin-top: 30px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 2;
+    color: rgb(0, 102, 255);
+}
+.news{
+    position: absolute;
+    width: 100%;
+    height: 80vh;
+    background-color: rgb(241, 241, 241);
+    margin-top: 8550px;
+}
