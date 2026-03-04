@@ -693,7 +693,7 @@ body{
     border: none;
     border-radius: 22px;
     font-size: 18px;
-    transition: 0.2s;
+    transition: 0.1s;
 }
 .ViewAll:hover{
     background-color: rgb(0, 81, 187);
